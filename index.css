@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+   
+}
+
+body{
+    background-color:rgb(67, 155, 161) !important;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    gap: 10%;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 100px;
+    box-shadow: 0 5px 10px;
+    
+}
+
+label{
+    font-family: cursive;
+    font-size: large;
+}
+
+#password{
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+button{
+    width:fit-content;
+    height: fit-content;
+    font-size: large;
+    
+}
+
+.required-password-chars{
+    list-style: none;
+    font-weight: 600;
+}
