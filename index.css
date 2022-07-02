@@ -48,3 +48,7 @@ button{
     list-style: none;
     font-weight: 600;
 }
+
+li{
+    color: orangered;
+}

@@ -20,12 +20,12 @@
     <form class="password" id="validateForm">
         <h1>Password checker</h1>
         <label for="password">Type your new password</label>
-        <input name="password" type="password" id="password" class="form-control">
+        <input name="password" type="password" id="password" onkeyup="checkPassword()" onchange="checkPassword()"class="form-control">
         <ul class="required-password-chars">
-            <li>Lower And Uppercase</li>
-            <li>SpecialCharacter (&!./?@*)</li>
-            <li>Lenght(between 5 to 20 Characters)</li>
-            <li>Number(0-9)</li>
+            <li class="LUC">Lower And Uppercase</li>
+            <li class="SC">Special Character (&!./?@*)</li>
+            <li class="LC">Lenght(between 5 to 20 Characters)</li>
+            <li class="NC">Number(0-9)</li>
         </ul>
     </form>
 </body>
