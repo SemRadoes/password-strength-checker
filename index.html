@@ -14,7 +14,8 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
     crossorigin="anonymous">
     </script>
-    <script defer src="index.js"></script>
+    <script defer src="../js/index.js"></script>
+    <script defer src="../js/checkpass.js"></script>
 </head>
 <body>
     <form class="password" id="validateForm">
@@ -27,6 +28,9 @@
             <li class="LC">Length(between 5 to 20 Characters)</li>
             <li class="NC">Number(0-9)</li>
         </ul>
+        <div id="succesdiv" class="alert alert-success" style="display:none;">Password meets the requirements</div>
+        <div id="errordiv" class="alert alert-warning" style="display:none;">Password doesnt meet the requirements</div>
+        <button class="btn btn-success" type="submit">Submit</button>
     </form>
 </body>
 </html>
